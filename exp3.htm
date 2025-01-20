@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Layout</title>
+<style>
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #c45cdd;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #c4b5dd;
+  width: 200px;
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #9cc4dd;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header"> <h1 style=" text-align: center;"> My first webpage</h1></div>
+  <div class="main">
+    <div class="nav">
+         <ul>
+           <li> <a href=""> quantity</a></li>
+           <li> <a href=""> name</a></li>
+           <li> <a href=""> price</a></li>
+
+    </ul></div>
+    <div class="content">
+        <h4> Check out about flower:</h4>
+    <image src="sunflower.jpg">
+    <p> Sunflower has yellow color</p>
+     </div>
+  </div>
+  <div class="footer">Footer</div>
+</div>
+
+</body>
+</html>
